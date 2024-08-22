@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{   
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.heading{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p{    
+    font-weight: 400;
+    line-height: 24px;
+}
+header{
+    padding: 30px 70px;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+header .heading{
+    font-size: 38px;
+}
+p{
+    color: hsl(201, 11%, 66%);
+}
+.logo{
+    margin-top: 70px;
+}
+
+.intro{
+    text-align: center;
+    padding: 10px 0;
+    width: 45%;
+    margin-bottom: 70px;
+
+}
+
+.buttons{
+    padding: 30px 0;
+}
+.buttons button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    margin: 0 10px;
+} 
+.buttons .first-botton{
+    background-color:hsl(171, 66%, 44%) ;
+    box-shadow: 2px 2px 8px  hsl(171, 66%, 44%), 2px 2px 2px  hsl(171, 66%, 44%);
+}
+.buttons .second-button{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 2px 2px 8px  hsl(233, 100%, 69%), 2px 2px 2px  hsl(233, 100%, 69%);
+}
+
+.one {
+    
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.one .heading{
+    font-size: 28px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+}
+.two img {
+    height: 100%;
+    width: 80%;
+}
+.two .computer{
+    margin-top: 40px;
+    width: 65%;
+
+}
+.two .heading{
+    font-size: 24px;
+}
+.three {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.three img {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.three .first-part{
+    padding: 70px 0;
+}
+
+.four .functions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.four .functions div {
+    width: 26%;
+    margin: 0 30px;
+}
+
+.four .functions div img {
+    margin: 10px 0 20px 0;
+}
+
+.five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin: 50px 30px;
+}
+.six{
+    text-align: center;
+    width: 46%;
+    margin: auto;
+}
+footer {
+    padding: 0 40px;
+    background-color: #f5f6f8;
+    padding: 10px 0;
+}
+
+footer .foot {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+}
+
+.foot .logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 70px;
+}
+
+.foot ul {
+    list-style: none;
+    max-width: 400px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+a {
+    color: hsl(171, 66%, 44%);
+}
+
+footer p {
+    text-align: center;
+}
+
+@media (max-width: 765px){
+    header {
+        background: url('./images/bg-header-mobile.png');
+        background-size: cover;
+        padding: 40px 10px ;
+    }
+    .intro {
+        width: 100%;
+    }
+
+    .one {
+        width: 80%;
+    }
+    .two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .three div:first-child {
+        width: 75%;
+    }
+
+    .two .computer div {
+        width: 76%;
+        margin: 60px 12%  auto;
+        text-align: center;
+    }
+    
+    .four .functions {
+        display: grid;
+    }
+
+    .four .functions div {
+        width: 85%;
+    }
+
+    .five {
+        display: grid;
+        grid-gap: 4em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sic {
+        width: 84%;
+    }
+
+    .button {
+        display: grid;
+        justify-content: center;
+    }
+
+    .buttons button{
+        margin: 10px 0;
+    }
+
+    footer .foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    ul li {
+        display: grid;
+        margin: 20px 0;
+    }
+
+
+    .social_link a {
+        margin: 10px;
+    }
+}
+
+
+
